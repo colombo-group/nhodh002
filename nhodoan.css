@@ -1,0 +1,230 @@
+#container {
+  line-height: 1.5;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+#top {
+  background-image: url(image/background_top.jpg);
+  width: 100%;
+  height: 50px;
+}
+
+.center {
+  width: 1050px;
+  margin: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  position: relative;
+}
+
+#top div.center ul li {
+  display: inline-block;
+}
+
+#top_left {
+  width: auto;
+  height: 30px;
+  float: left;
+  padding: 0;
+  margin-left: 160px;
+  color: #56aaf2;
+}
+
+#top_left li a{
+  margin-top: 8px;
+  height: 15px;
+  padding: 10px;
+  font-size: 12px;
+  color: #56aaf2;
+}
+
+#top_right {
+  float: right;
+  margin-top: 0;
+  width: auto;
+  padding-right: 40px;
+}
+
+#top_right ul li, #top_left ul li, #menu ul li, #banner ul li,#main_top_left ul li,#main_top_right ul li ,#main_bottom_logo ul li, #footer_top ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+
+ul li img {
+  margin-bottom: -4px;
+  padding-right: 4px;
+}
+
+#menu {
+  color: black;
+  background-image: url(image/background_logo.png);
+  height: 100px;
+  width: 100%;
+}
+
+#menu ul li {
+  font-size: 16px;
+  float: right;
+  padding: 0px;
+  margin: 40px 20px 10px 20px;
+}
+
+#menu a {
+  color: black;
+}
+#banner{
+  background-image: url(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13178993_842787172522916_1364652310478648783_n.jpg?oh=a505a4a81b86d27e65b94c3847c42cbb&oe=57A87833);
+  float: left;
+  height: 370px;
+  width: 100%;
+}
+#banner_content{
+  background-image: url(image/Home.png);
+  height: 330px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#section_1{
+  height: 330px;
+}
+#sec_1_left{
+  float: left;
+  width: 500px;
+  height: 330px;
+   margin-top: 50px;
+ 
+}
+#section_1_right{
+  background-image: url(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13220979_842799399188360_8014200295460646161_n.jpg?oh=03dc8a7ac54ee8a2733c2194a572567e&oe=57A646CD);
+  float: right;
+  width: 500px;
+  height: 330px;
+}
+#sec_1_left a{
+  font-size: 40px;
+  color: #666666;
+}
+#sec_1_left p{
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#sec_1_left ul li{
+  list-style-type: none;
+  display: inline;
+}
+#sec_1_right a{
+  margin-left: 100px;
+}
+#section_2{
+  float: left;
+  width: 100%;
+  height: 330px;
+  background-color: #f89502;
+}
+#sec_2_img1{
+  margin-top: 30px ;
+  margin-left : 120px;
+  float: left ;
+  height: 240px;
+  width: 220px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+#sec_2_img2{
+  background-image: url(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13094352_842809819187318_4522903265196943741_n.jpg?oh=ea689283bbd6295e3ffae1e1a73b3cef&oe=57E41D05);
+  float: left;
+  height: 330px;
+  width: 500px;
+}
+#sec_2_img3{
+  background-image: url(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13221593_842809809187319_461139864366545134_n.jpg?oh=ac4ce634e509568b507bc1baa4b635ca&oe=579BFC1E);
+  float: left;
+  height: 330px;
+  width: 240px;
+}
+#sec_2_img4{
+  background-image: url(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13177654_842809812520652_7824997891543598990_n.jpg?oh=8aa437fa23fea526685cd54e305c8e7d&oe=5799A833);
+  float: right;
+  height: 330px;
+  width: 240px;
+}
+#news{
+  float: left ;
+  height: 360px;
+  width: 480px;
+}
+#video{
+  float: right;
+  height: 360px;
+  width: 480px;
+}
+.tin_sec3{
+  width: 480px;
+  float: left;
+}
+.tin_anh{
+  float: left ;
+  width: 180px;
+  height: 100px;
+  margin-top: 30px;
+}
+.tin_chu{
+  float: right;
+  width: 300px;
+  height: 90px;
+}
+.tin_chu a{
+  color: black;
+}
+.tin_chu p{
+  font-size: 12px;
+  color: #666666;
+}
+#video{
+  float: right;
+  height: 360px;
+}
+#footer_top{
+    height: 180px;
+    float: left;
+    width: 100%;
+    background-image: url("images/bg-footer.jpg");
+}
+#footer_top ul li{
+    margin-top: 15px;
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
+}
+#footer_bottom{
+	float: left;
+    background-color: #0f75bc;
+    height: 350px;
+    width: 100%;
+}
+
+#footer_left{
+	float: left;
+    margin-top: 45px;
+}
+#footer_left ul li {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 0px;
+	padding-left: 0px;
+	color: #56aaf2;
+}
+#footer_right{
+	float: right;
+    width: 436px;
+    height: 231px;
+    margin-top: 45px;
+	
+}
